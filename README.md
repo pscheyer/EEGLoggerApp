@@ -1,0 +1,6 @@
+20151231 948CST
+
+Starting work on my iOS logger and activator for my hacked mindflex.
+
+Hack was completed according to [this frontiernerds brain hack](http://www.frontiernerds.com/brain-hack), with some assistance from other sites. Notables:
+The hack site recommends a simple script that's supposed to function at changing the HC-06 bluetooth module into the right baud rate. This script didn't work for me and it offers no feedback as to why. I found another site that offered a way to set up the arduino to chat with the HC-06 so that it offers continual feedback, which i could then use to input the commands from the other app. The [arduino script for the sort-of-repl with the HC-06 is here](http://42bots.com/tutorials/hc-06-bluetooth-module-datasheet-and-configuration-with-arduino/), here's a [list of commands for the HC-06](http://mcuoneclipse.com/2013/06/19/using-the-hc-06-bluetooth-module/), and you'll need some basic arduino knowledge for that. (setting up the arduino IDE, using a breadboard, soldering, etc.)
